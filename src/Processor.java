@@ -9,7 +9,15 @@ public class Processor {
         this.name = name;
         this.core = core;
         this.frequency = frequency;
-        this. weight = weight;
+        this.weight = weight;
+    }
+    public void print() {
+        System.out.println("Процессор: " + name + ";" + " Ядра: " + core + ";" + " Частота: " + frequency);
+    }
+
+    public double getWeight () {
+
+        return weight;
     }
 
 }

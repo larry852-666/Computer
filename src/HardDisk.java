@@ -9,4 +9,10 @@ public class HardDisk {
         this.volume = volume;
         this.weight = weight;
     }
+    public void print() {
+        System.out.println("Тип диска: " + typeHardDisk + ";" + " Объем памяти: " + volume);
+    }
+    public double getWeight () {
+        return weight;
+    }
 }

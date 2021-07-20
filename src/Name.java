@@ -1,4 +1,4 @@
 public enum Name {
     AMD,
-    Intel
+    Intel;
 }
